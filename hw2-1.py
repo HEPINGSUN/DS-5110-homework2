@@ -8,3 +8,4 @@ g.map(sns.histplot, "lifeExp")
 for ax in g.axes.flat:
     ax.set_title(ax.get_title(), fontsize=12)
 plt.show()
+#Most people in Asia,Europe and America, their life expectancy are about 70. The life expectancy of most Africa people are about 50.
