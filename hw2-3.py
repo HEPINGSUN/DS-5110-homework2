@@ -17,7 +17,7 @@ g_log = sns.FacetGrid(df_log, col="continent", height=5, sharex=False)
 g_log.map(plt.scatter, "gdpPercap", "lifeExp")
 
 plt.show()
-#We can see that the distribution of the log-transformed data is quite different from the original data。
-#In the log-transformed image, the distribution of countries on different continents is clearer and it is easier to spot some trends.
+# We can see that the distribution of the log-transformed data is quite different from the original data。
+# In the log-transformed image, the distribution of countries on different continents is clearer and it is easier to spot some trends.
 
 
