@@ -18,4 +18,5 @@ plt.title("Histogram with Overlaid Normal Distribution")
 plt.xlabel(column)
 plt.ylabel("Density")
 plt.show()
-
+# The mean of the data is around 70 and the standard deviation is around 10.
+# Most data is centered between 60 and 80, with very little data outside the range of 40 to 100.
